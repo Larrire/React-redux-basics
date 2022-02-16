@@ -1,10 +1,9 @@
 import './App.css';
-import { useSelector } from 'react-redux';
-import { RootState } from './redux/store';
+import { useReduxSelector } from './redux/hooks/useReduxSelector'
 
 function App() {
 
-  const user = useSelector((state: RootState) => state.user);
+  const user = useReduxSelector(state => state.user);
 
   return (
     <>
