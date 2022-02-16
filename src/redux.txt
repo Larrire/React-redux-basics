@@ -1,0 +1,5 @@
+- store
+- provider
+- reducer / slice
+- actions / dispatches
+- selectors
